@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-
+// 22/08/2024 - Pranav - Updated the sysout messsage 
 public class RegisterDemoFlow {
 
 	public WebDriver driver;
@@ -74,7 +74,7 @@ public class RegisterDemoFlow {
 
 		// Maximize the window
 		driver.manage().window().maximize();
-		System.out.println();
+		System.out.println("Code updated");
 		System.out.println("Application is launched successfully");
 		
 
